@@ -33,24 +33,3 @@ public class BubbleSort {
 	    }
 	}
 
-create table Address (
-	    add_id INT primary key,
-	    street varchar(20),
-	    city varchar(22),
-	    state varchar(20),
-	    pincode varchar(10)
-	);
-
-	create table Student (
-	    student_id int primary key,
-	    name varchar(20),
-	    age int,
-	    add_id int,
-	   foregin key (add_id) REFERENCES Add(add_id)
-	);
-
-	
-	INSERT INTO Address (add_id, street, city, state, pincode) VALUES
-	(1, 'Gr road', 'Mumbai', 'Maharashtra', '12345'),
-	(2, 'tilak nagar', 'panji', 'goa', '67890'),
-	(3, 'Abc', 'ujjain', 'mp', '11223');

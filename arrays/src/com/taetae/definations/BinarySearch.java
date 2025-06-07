@@ -6,7 +6,7 @@ public class BinarySearch {
 public static void main(String[] args) {
 		  
 		int[] Array= {10,20,30,40,50,60};  
-        int index = binarySearch(10, 10,20,30,40,50,60 );
+        int index = binarySearch(10,20,30,40,50,60 );
 		System.out.println( index );
 }
 
